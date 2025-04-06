@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoMecánicos Rápidos - Taller Mecánico Especializado</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+               
+                <div>
+                    <h1>AutoMecánicos <span>Rápidos</span></h1>
+                </div>
+            </div>
+            <nav>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul id="navMenu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#testimonios">Testimonios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Expertos en Reparación Automotriz</h2>
+                <p>Servicio de calidad con garantía, tecnología de punta y los mejores mecánicos especializados para tu vehículo.</p>
+                <a href="#contacto" class="btn">Contactar Ahora</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section class="services" id="servicios">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nuestros Servicios</h2>
+                <p>Ofrecemos una amplia gama de servicios para mantener tu vehículo en perfecto estado.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1600861195091-690c92f1d2cc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Mantenimiento Preventivo">
+                    </div>
+                    <div class="service-content">
+                        <h3>Mantenimiento Preventivo</h3>
+                        <p>Cambio de aceite, filtros, líquidos y revisión general para prevenir fallas mayores.</p>
+                        <a href="#contacto" class="btn">Solicitar</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Reparación de Motor">
+                    </div>
+                    <div class="service-content">
+                        <h3>Reparación de Motor</h3>
+                        <p>Diagnóstico y reparación de problemas en el motor, desde ajustes hasta reconstrucción.</p>
+                        <a href="#contacto" class="btn">Solicitar</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1493238792000-8113da705763?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Sistema Eléctrico">
+                    </div>
+                    <div class="service-content">
+                        <h3>Sistema Eléctrico</h3>
+                        <p>Reparación de alternadores, arranques, cableado y problemas electrónicos.</p>
+                        <a href="#contacto" class="btn">Solicitar</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1557529140-0a6b8b0b8b0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Frenos y Suspensión">
+                    </div>
+                    <div class="service-content">
+                        <h3>Frenos y Suspensión</h3>
+                        <p>Reparación y mantenimiento de sistemas de frenos, amortiguadores y dirección.</p>
+                        <a href="#contacto" class="btn">Solicitar</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1547036967-23d11aacaee0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Aire Acondicionado">
+                    </div>
+                    <div class="service-content">
+                        <h3>Aire Acondicionado</h3>
+                        <p>Recarga de gas, reparación de compresores y mantenimiento del sistema de climatización.</p>
+                        <a href="#contacto" class="btn">Solicitar</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1494972308805-463bc619d34e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Diagnóstico Computarizado">
+                    </div>
+                    <div class="service-content">
+                        <h3>Diagnóstico Computarizado</h3>
+                        <p>Tecnología de punta para identificar problemas con precisión y rapidez.</p>
+                        <a href="#contacto" class="btn">Solicitar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Nosotros -->
+    <section class="about" id="nosotros">
+        <div class="container">
+            <div class="about-container">
+                <div class="about-content">
+                    <h2>Nuestra Experiencia en el Sector Automotriz</h2>
+                    <p>Con más de 15 años de experiencia, AutoMecánicos Rápidos se ha consolidado como líder en el servicio de reparación y mantenimiento automotriz en la región.</p>
+                    <p>Nuestro equipo de mecánicos certificados está comprometido con brindar soluciones efectivas y duraderas para todo tipo de vehículos.</p>
+                    
+                    <div class="features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div>
+                                <h3>Calidad Garantizada</h3>
+                                <p>Todos nuestros servicios cuentan con garantía escrita.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div>
+                                <h3>Equipo Profesional</h3>
+                                <p>Mecánicos certificados y con amplia experiencia.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <div>
+                                <h3>Tecnología de Punta</h3>
+                                <p>Equipos de diagnóstico computarizado para identificar problemas con precisión.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-img">
+                    <img src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Nuestro Taller">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="testimonials" id="testimonios">
+        <div class="container">
+            <div class="section-title">
+                <h2>Lo que Dicen Nuestros Clientes</h2>
+                <p>La satisfacción de nuestros clientes es nuestra mejor carta de presentación.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        <p>"Excelente servicio! Repararon mi auto en tiempo récord y con una atención impecable. Definitivamente volveré."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Juan Pérez">
+                        <div class="author-info">
+                            <h4>Juan Pérez</h4>
+                            <p>Cliente desde 2018</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        <p>"Llevo mi coche aquí desde que lo compré. Siempre honestos, profesionales y con precios justos. Los recomiendo 100%."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="María González">
+                        <div class="author-info">
+                            <h4>María González</h4>
+                            <p>Cliente desde 2019</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        <p>"Después de malas experiencias en otros talleres, encontré estos profesionales que realmente saben lo que hacen. Mi auto nunca había funcionado mejor."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Carlos Rodríguez">
+                        <div class="author-info">
+                            <h4>Carlos Rodríguez</h4>
+                            <p>Cliente desde 2020</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Contacto -->
+     <section class="contact" id="contacto">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contáctanos</h2>
+                <p>Estamos listos para atenderte. Agenda una cita o consulta cualquier duda.</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Información de Contacto</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <p>Calle Mecánica #123, Col. Talleres</p>
+                                <p>Ciudad Automotriz, CP 45678</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <p>Tel: (555) 123-4567</p>
+                                <p>Cel: (555) 987-6543</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <p>contacto@automecanicosrapidos.com</p>
+                                <p>cotizaciones@automecanicosrapidos.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div>
+                                <p>Lunes a Viernes: 8:00 am - 6:00 pm</p>
+                                <p>Sábados: 9:00 am - 2:00 pm</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.888238925847!2d-99.1678266845312!3d19.42651124592282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff35f5bd1563%3A0x6c366f0e2de02ff7!2sEl%20%C3%81ngel%20de%20la%20Independencia!5e0!3m2!1ses!2smx!4v1620000000000!5m2!1ses!2smx" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <input type="hidden" id="selectedService" name="selectedService" value="">
+                        <div class="form-group">
+                            <label for="name">Nombre Completo</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Teléfono</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Servicio de Interés</label>
+                            <select id="service" name="service" class="form-group input" required>
+                                <option value="">Selecciona un servicio</option>
+                                <option value="mantenimiento">Mantenimiento Preventivo</option>
+                                <option value="motor">Reparación de Motor</option>
+                                <option value="electrico">Sistema Eléctrico</option>
+                                <option value="frenos">Frenos y Suspensión</option>
+                                <option value="aire">Aire Acondicionado</option>
+                                <option value="diagnostico">Diagnóstico Computarizado</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="preferredDate">Fecha Preferida para la Cita</label>
+                            <input type="date" id="preferredDate" name="preferredDate">
+                        </div>
+                        <button type="submit" class="btn">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal para solicitar servicio -->
+    <div id="serviceModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div id="modalFormContent">
+                <h2>Solicitar Servicio</h2>
+                <div class="modal-service-info">
+                    <h3 id="modalServiceName"></h3>
+                    <p id="modalServiceDescription"></p>
+                </div>
+                <form id="quickContactForm">
+                    <input type="hidden" id="quickServiceName" name="service">
+                    <div class="form-group">
+                        <label for="quickName">Nombre Completo</label>
+                        <input type="text" id="quickName" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="quickPhone">Teléfono</label>
+                        <input type="tel" id="quickPhone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="quickDate">Fecha Preferida para la Cita</label>
+                        <input type="date" id="quickDate" name="preferredDate">
+                    </div>
+                    <button type="submit" class="btn">Solicitar Ahora</button>
+                </form>
+            </div>
+            <div id="modalLoading" class="loading">
+                <i class="fas fa-spinner"></i>
+                <p>Enviando tu solicitud...</p>
+            </div>
+            <div id="modalConfirmation" class="confirmation-message">
+                <i class="fas fa-check-circle"></i>
+                <h2>¡Solicitud Enviada!</h2>
+                <p id="confirmationMessage">Gracias por tu solicitud. Nos pondremos en contacto contigo en breve para confirmar tu cita.</p>
+                <button id="closeConfirmation" class="btn">Aceptar</button>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h3>AutoMecánicos Rápidos</h3>
+                    <p>Expertos en reparación y mantenimiento automotriz con más de 15 años de experiencia en el mercado.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Servicios</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Mantenimiento Preventivo</a></li>
+                        <li><a href="#">Reparación de Motor</a></li>
+                        <li><a href="#">Sistema Eléctrico</a></li>
+                        <li><a href="#">Frenos y Suspensión</a></li>
+                        <li><a href="#">Aire Acondicionado</a></li>
+                        <li><a href="#">Diagnóstico Computarizado</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#testimonios">Testimonios</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                        <li><a href="#">Política de Privacidad</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Horario de Atención</h3>
+                    <p>Lunes a Viernes: 8:00 am - 6:00 pm</p>
+                    <p>Sábados: 9:00 am - 2:00 pm</p>
+                    <p>Domingos: Cerrado</p>
+                    <h3>Emergencias</h3>
+                    <p>Cel: (555) 987-6543</p>
+                    <p>24 horas</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 AutoMecánicos Rápidos. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js">
+        // Menú móvil
+        
+    </script>
+</body>
+</html>
